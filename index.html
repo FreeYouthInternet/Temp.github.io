@@ -1,0 +1,102 @@
+<!doctype html>
+
+<!-- this is a comment for human! -->
+
+<html lang="en">
+
+<head>
+  <meta charset="ÜTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <title> Temptation </title>
+  <link rel="icon" href="tcf.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="name" content="Temperature Converter">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+
+
+<body>
+
+  <section class="firstSection">
+    <div class="leftSection"><img class="man" src="ojh.png" alt="">
+
+    </div>
+    <div class="rightSection">
+      <div class="container">
+        <span id="roar"></span>
+        <div class="cf">
+          <label for="Celsius">Celsius (&deg;C)</label>
+          <input type="number" id="Celsius" />
+        </div>
+        <div class="fc">
+          <label for=" Fahrenheit"> Fahrenheit (&deg;F)</label>
+          <input type="number" id="Fahrenheit" />
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+
+    var typed = new Typed('#roar', {
+      strings: [  'Temperature Converter   (&deg;C<-->&deg;F)'],
+      typeSpeed: 40, loop: true
+    })
+  </script>
+  <style data-typed-js-cursor-css="true">
+    .typed-cursor {
+      opacity: 1;
+    }
+
+    .typed-cursor.typed-cursor--blink {
+      animation: typedjsBlink 0.7s infinite;
+      -webkit-animation: typedjsBlink 0.7s infinite;
+      animation: typedjsBlink 0.7s infinite;
+    }
+
+    @keyframes typedjsBlink {
+      50% {
+        opacity: 0.0;
+      }
+    }
+
+    @-webkit-keyframes typedjsBlink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  
+
+</body>
+
+<footer>
+ 
+   
+  <div class="footer-rights">
+    copyright &#169; Temptation| All rights reserved
+  </div>
+  
+  
+
+
+</footer>
+
+</html>
